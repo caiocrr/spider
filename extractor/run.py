@@ -14,7 +14,7 @@ import subprocess
 
 def main(args):
 
-    extractor = os.path.join(os.path.abspath(os.path.dirname(__file__)), 'extractor.coffee')
+    extractor = os.path.join(os.path.abspath(os.path.dirname(__file__)), 'extractor.js')
     path = utils.get_data_path(args.site[0])
     urls = utils.load_urls(path)
 
